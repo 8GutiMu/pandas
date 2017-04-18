@@ -1,0 +1,43 @@
+*{
+  font-family: helvetica;
+
+}
+body{
+  background-color: #1C1C1C;
+}
+
+ul{
+  background: #B40404;
+  top: 0px;
+  margin: none;
+}
+li{
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover{
+  color: green;
+}
+
+#fotosPandas{
+  display: inline-block;
+}
+
+#barrasMedias{
+  display: block;
+}
+#barrasMedias .barra{
+  display: inline-block;
+  background-color: #B40404;
+  width: 300px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
