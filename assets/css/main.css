@@ -68,6 +68,7 @@ a:hover{
 }
 
 .close {
+    display: inline;
     position: relative;
     left: 30px;
     color: #B40404;
