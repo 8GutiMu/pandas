@@ -1,16 +1,11 @@
 var cerrar= document.getElementsByClassName("close")
-var foto = [];
-
 var btnrestaurar = document.getElementsByClassName("barra")[2];
-var texto2 = document.getElementsByClassName("articulos")[1];
 var btnExtincion = document.getElementsByClassName("barra")[1];
 var btnOrigen = document.getElementsByClassName("barra")[0];
 
-
-
-btnsrestaurar.addEventListener("click",restaurar);
-btnExtincion.addEventListener("click", suprimirTexto);
-btnOrigen.addEventListener("click",restaurarTexto);
+btnrestaurar.addEventListener("click",restaurar);
+btnExtincion.addEventListener("click", modificarTextoExtincion);
+btnOrigen.addEventListener("click",modificarTextoOrigen);
 
 
 function cerrarFotosDePandas(){
@@ -28,14 +23,26 @@ function cerrarFoto(){
 
 function restaurar(){
   for(var i = 0; i<cerrar.length; i++){
-   cerrar[i].parentElement.style.display = "inline-block";
- }
+
+    cerrar[i].parentElement.style.display = "inline-block";
+  }
 }
 
-function suprimirTexto(){
-  texto.style.display = "none";
+function modificarTextoOrigen(){
+  var texto1 = document.getElementsByTagName("article")[0];
+
+    if(texto1.style.visibility === "hidden"){
+      texto1.style.visibility = "visible";
+    }else{
+      texto1.style.visibility = "hidden";
+    }
 }
 
-function restaurarTexto(){
-  texto.style.display = "inline-block"
+function modificarTextoExtincion(){
+  var texto1 = document.getElementsByTagName("article")[1];
+  if(texto1.style.visibility === "hidden"){
+    texto1.style.visibility = "visible";
+  }else{
+    texto1.style.visibility = "hidden";
+  }
 }

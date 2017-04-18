@@ -61,6 +61,7 @@ a:hover{
 #textos{
   display: block;
   margin-top: 20px;
+  visibility: hidden;
 }
 #textos .articulos{
   color: white;
