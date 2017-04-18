@@ -1,6 +1,7 @@
 *{
   font-family: helvetica;
   margin: 0;
+  text-align: center;
 
 }
 body{
@@ -30,17 +31,15 @@ a:hover{
 
 #fotosPandas{
   display: block;
-  margin-left: 130px;
   margin-top: 20px;
 }
 
-.img{
+.imagen{
   display: inline-block;
 }
 
 #barrasMedias{
   display: block;
-  margin-left: 180px;
   margin-top: 20px;
 }
 
@@ -53,10 +52,14 @@ a:hover{
   padding: 10px;
 }
 
+.barra:hover{
+  background-color: white;
+
+}
+
 
 #textos{
   display: block;
-  margin-left: 130px;
   margin-top: 20px;
 }
 #textos .articulos{
