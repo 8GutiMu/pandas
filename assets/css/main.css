@@ -29,7 +29,7 @@ a:hover{
 }
 
 #fotosPandas{
-  display: inline-block;
+  display: block;
   margin-left: 130px;
   margin-top: 20px;
 }
