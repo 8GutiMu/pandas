@@ -1,5 +1,6 @@
 *{
   font-family: helvetica;
+  margin: 0;
 
 }
 body{
@@ -9,12 +10,13 @@ body{
 ul{
   background: #B40404;
   top: 0px;
-  margin: none;
+
 }
 li{
   display: inline-block;
   padding: 20px;
   list-style: none;
+
 }
 a{
   color: whitesmoke;
@@ -23,16 +25,25 @@ a{
 }
 
 a:hover{
-  color: green;
+  color: yellow;
 }
 
 #fotosPandas{
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.img{
   display: inline-block;
 }
 
 #barrasMedias{
   display: block;
+  margin-left: 180px;
+  margin-top: 20px;
 }
+
 #barrasMedias .barra{
   display: inline-block;
   background-color: #B40404;
@@ -40,4 +51,33 @@ a:hover{
   text-align: center;
   color: white;
   padding: 10px;
+}
+
+
+#textos{
+  display: block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+#textos .articulos{
+  color: white;
+  display: inline-block;
+  width: 500px;
+  text-align: justify;
+  margin: 10px;
+}
+
+.close {
+    position: relative;
+    left: 30px;
+    color: #B40404;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
